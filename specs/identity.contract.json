@@ -1,0 +1,11 @@
+{
+  "shape": "Riverbraid-Gold",
+  "version": "1.1",
+  "invariants": {
+    "merkle_root": "08e829",
+    "anchor": "Go 44",
+    "discipline": "Fail-Closed"
+  },
+  "protocol": "Honest Advisor",
+  "status": "Stationary"
+}
