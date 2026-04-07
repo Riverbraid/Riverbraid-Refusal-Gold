@@ -1,24 +1,28 @@
 import { execSync } from 'child_process';
 
-/**
- * Refusal-Gold: The Fail-Closed Gatekeeper.
- * Blocks execution unless Cognition reports STEADY (1.0).
- */
 const verifyGate = () => {
   try {
-    // 1. Query Cognition for the current frequency
+    // 1. Check Coherence (The Frequency)
     const rawCognition = execSync('node /workspaces/Riverbraid-Cognition/bin/evaluate_coherence.mjs').toString();
     const cognition = JSON.parse(rawCognition);
 
-    if (cognition.frequency === 1) {
-      console.log("SHIELD_OPEN: Frequency is Steady. Proceed.");
+    // 2. Check Cadence (The Time)
+    const rawTemporal = execSync('node /workspaces/Riverbraid-Temporal-Gold/bin/chronos_gate.mjs').toString();
+    const temporal = JSON.parse(rawTemporal);
+
+    if (cognition.frequency === 1 && temporal.alignment_active) {
+      console.log("SHIELD_OPEN: Frequency Steady and Cadence Aligned.");
       process.exit(0);
+    } else if (cognition.frequency === 1 && !temporal.alignment_active) {
+      // Allow override for manual stewardship, but flag it
+      console.warn("SHIELD_WARNING: Frequency Steady but Outside Cadence Window.");
+      process.exit(0); 
     } else {
-      console.error(`SHIELD_LOCKED: Frequency is ${cognition.signal} (${cognition.frequency}). Action Refused.`);
+      console.error(`SHIELD_LOCKED: Frequency is ${cognition.signal}. Action Refused.`);
       process.exit(1);
     }
   } catch (e) {
-    console.error("SHIELD_LOCKED: Cognitive Silence detected. Emergency Refusal.");
+    console.error("SHIELD_LOCKED: Temporal or Cognitive Silence.");
     process.exit(1);
   }
 };
