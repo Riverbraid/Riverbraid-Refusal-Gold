@@ -1,3 +1,95 @@
-{
-  "sha256": "8508c8057671d91cc8b85f7fc9a7596b12ecf8376514947342db7c718137285d"
-}
+[
+  {
+    "file": ".anchor"
+  },
+  {
+    "file": ".gitattributes"
+  },
+  {
+    "file": ".github/gate.mjs"
+  },
+  {
+    "file": ".github/heartbeat.mjs"
+  },
+  {
+    "file": ".github/run-vectors.cjs"
+  },
+  {
+    "file": ".github/workflows/integrity.yml"
+  },
+  {
+    "file": ".github/workflows/merkle-verify.yml"
+  },
+  {
+    "file": ".stationary_state"
+  },
+  {
+    "file": "CLUSTER_MANIFEST.state"
+  },
+  {
+    "file": "LICENSE"
+  },
+  {
+    "file": "MANIFEST.SEAL.sha256"
+  },
+  {
+    "file": "README.md"
+  },
+  {
+    "file": "SOVEREIGN-ENVIRONMENT.md"
+  },
+  {
+    "file": "SPEC.md"
+  },
+  {
+    "file": "TRUTH.SEAL.sha256"
+  },
+  {
+    "file": "__init__.py"
+  },
+  {
+    "file": "bin/gate.mjs"
+  },
+  {
+    "file": "bin/heartbeat.mjs"
+  },
+  {
+    "file": "bin/run-vectors.cjs"
+  },
+  {
+    "file": "bin/shield.mjs"
+  },
+  {
+    "file": "constitution.snapshot.json.asc"
+  },
+  {
+    "file": "index.js"
+  },
+  {
+    "file": "protocol.steps"
+  },
+  {
+    "file": "refusal-gate.cjs"
+  },
+  {
+    "file": "refusal-gate.js"
+  },
+  {
+    "file": "refusal.codes"
+  },
+  {
+    "file": "run-vectors.cjs"
+  },
+  {
+    "file": "src/refusal-gate.js"
+  },
+  {
+    "file": "swarm_anchor.txt"
+  },
+  {
+    "file": "verify.mjs"
+  },
+  {
+    "file": "verify.py"
+  }
+]
