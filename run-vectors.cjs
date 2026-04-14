@@ -1,49 +1,30 @@
-((env) => {
-  const WHITELIST = ['PATH','GPG_TTY','HOME','USER','LANG'];
-  Object.keys(env).forEach(key => {
-    if (!WHITELIST.includes(key)) delete env[key];
-  });
-  env.NODE_NO_WARNINGS = '1';
-})(process.env);
-#!/usr/bin/env node
-const crypto = require('crypto');
 const fs = require('fs');
-const path = require('path');
-const VERSION = "1.5.0";
-const ALLOWED_EXTENSIONS = ['.js', '.cjs', '.json', '.md', '.sh', '.yml', '.yaml'];
-function computeHash(dir) {
-    const files = fs.readdirSync(dir, { recursive: true })
-        .filter(f => ALLOWED_EXTENSIONS.includes(path.extname(f)) && f !== 'run-vectors.cjs' && !f.includes('node_modules') && !f.startsWith('.'))
-        .sort();
-    const hash = crypto.createHash('sha256');
-    files.forEach(file => {
-        const fullPath = path.join(dir, file);
-        if (fs.lstatSync(fullPath).isFile()) {
-            hash.update(fs.readFileSync(fullPath));
-        }
-    });
-    return hash.digest('hex').substring(0, 6);
+const crypto = require('crypto');
+const { execSync } = require('child_process');
+
+const constitution = JSON.parse(fs.readFileSync('constitution.threshold.json', 'utf8'));
+const verifierContent = fs.readFileSync(__filename, 'utf8');
+const computedHash = crypto.createHash('sha256').update(verifierContent).digest('hex');
+
+if (constitution.verifier_integrity !== computedHash) {
+    console.error('VERIFIER_INTEGRITY_MISMATCH');
+    console.error(`Expected: ${constitution.verifier_integrity}`);
+    console.error(`Actual:   ${computedHash}`);
+    process.exit(1);
 }
-const mode = process.argv[2] || 'verify';
-const actualRoot = computeHash(process.cwd());
-const manifestPath = path.join(process.cwd(), 'RELEASE.manifest.json');
-let expectedRoot = actualRoot;
-if (fs.existsSync(manifestPath)) {
-    try {
-        const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-        if (manifest.merkle_root) expectedRoot = manifest.merkle_root;
-    } catch (e) {}
+
+if (constitution.threshold !== 1) {
+    console.error('THRESHOLD_ERROR: Must be 1 for Solo Genesis.');
+    process.exit(1);
 }
-console.log(`--- Riverbraid Structural Governance (v${VERSION}) ---`);
-console.log(`Canonical Merkle Root: ${actualRoot}`);
-if (mode === 'verify') {
-    const isStationary = actualRoot === expectedRoot;
-    console.log(`[Go 44 Predicate] H_div: ${isStationary ? 0 : 1}`);
-    if (isStationary) {
-        console.log("✅ GO 44: Verified Stationary Consensus State (VSCS)");
-        process.exit(0);
-    } else {
-        console.log(`❌ FAIL-CLOSED: Divergence from Manifest (${expectedRoot})`);
-        process.exit(1);
-    }
+
+try {
+    const vmPath = '../Riverbraid-Core/Go44/riverbraid_vm';
+    execSync(`${vmPath} --verify constitution.threshold.json`);
+    console.log("Integrity: Verifier is coupled. ✅");
+    console.log("Semantic Bridge: Scale Separation Active. ✅");
+    console.log("Stationary Floor (v3.0.0): ✅");
+} catch (e) {
+    console.error("COUPLING_VIOLATION: VM Rejected the current state.");
+    process.exit(1);
 }
