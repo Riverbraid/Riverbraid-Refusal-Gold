@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "snapshot": "node run-vectors.cjs snapshot",
-    "verify": "node run-vectors.cjs verify"
+    "verify": "node run-vectors.cjs verify",
+    "prestart": "node gatekeeper.js",
+    "prebuild": "node gatekeeper.js"
   },
   "engines": {
     "node": "20.11.0"
