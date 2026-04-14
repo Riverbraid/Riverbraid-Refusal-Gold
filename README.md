@@ -32,3 +32,9 @@ git clone --recursive [https://github.com/Riverbraid/Riverbraid-Golds.git](https
 cd Riverbraid-Golds
 ./braid-sync.sh
 npm run build
+
+---
+## Part of the Riverbraid Constellation
+A self-verifying integrity substrate anchored to stationary Merkle root **de2062** (Sovereign layer **adef13**).
+Verification: `node run-vectors.cjs verify`
+
