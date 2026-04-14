@@ -6,8 +6,8 @@
   "scripts": {
     "snapshot": "node run-vectors.cjs snapshot",
     "verify": "node run-vectors.cjs verify",
-    "prestart": "node gatekeeper.js",
-    "prebuild": "node gatekeeper.js"
+    "prestart": "node gatekeeper.cjs",
+    "prebuild": "node gatekeeper.cjs"
   },
   "engines": {
     "node": "20.11.0"
