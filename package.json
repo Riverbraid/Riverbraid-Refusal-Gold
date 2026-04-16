@@ -10,7 +10,7 @@
     "prebuild": "node gatekeeper.cjs"
   },
   "engines": {
-    "node": "20.11.0"
+    "node": ">=20.11.0"
   },
   "description": "Reason coded refusal and boundary enforcement surface for the Riverbraid system."
 }
