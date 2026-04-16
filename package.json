@@ -7,10 +7,12 @@
     "snapshot": "node run-vectors.cjs snapshot",
     "verify": "node run-vectors.cjs verify",
     "prestart": "node gatekeeper.cjs",
-    "prebuild": "node gatekeeper.cjs"
+    "prebuild": "node gatekeeper.cjs",
+    "test": "node run-vectors.cjs verify"
   },
   "engines": {
-    "node": ">=20.11.0"
+    "node": "20.11.0",
+    "npm": "10.2.4"
   },
   "description": "Reason coded refusal and boundary enforcement surface for the Riverbraid system."
 }
