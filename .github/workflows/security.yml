@@ -37,3 +37,4 @@ jobs:
             echo "❌ Broken hash (MD5 or SHA1) detected — only cryptographically secure primitives allowed."
             exit 1
           fi
+

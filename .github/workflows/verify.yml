@@ -25,3 +25,4 @@ jobs:
           fi
 
       - run: node run-vectors.cjs verify
+

@@ -1,351 +1,281 @@
 [
     {
-        "Algorithm":  "SHA256",
         "Hash":  "C03E8DF4AB2A744B70B36DEDC4EDFA06D2010781D2A8D6876ACFD23653D15782",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.anchor"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "4BA2165094CC656486214E9DAEE1F670F43AAC3FDD5FD1115D7E9FFE6C675136",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.eternal_seal"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "7C6FA177236C5EB06DF75C2941304F2DA69C9D9948F6C97DA7AA6FBCC9B06C84",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.gitattributes"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "288E0DAB960B2C5524E8794685AB49A1BD3E168ABFED7358D66FAB125FBDB566",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.gitignore"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.stationary"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "6D6506D6328F21DF100BA2CBDF3C8B02337824021FFE8F662C222F8E8BE5A8DD",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.stationary-seal"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "A47A6CB190469D42B4BCAC7F6C3423AF9306F549B425C7AF16559BCBC29728FB",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.stationary_state"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "E6D51821109CFB86A277CFB3BF49DEB5039FADDD4AFE95F3B82A5019DD1D026B",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\bridge-protocol.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "DBDCC6963993FF6D411B66776BCAA555FB0A442F26A3B0FB5D193D459ACD9BCD",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\CLUSTER_MANIFEST.state"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "72BAD017E5598F7B0ACC9819C7753E549E882A5238861FBC602D785D93F13698",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\cognitive-architecture.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "DEA6C0E96C3BA6388913A8BCCDD6D4D7E45802AEDDA78B3FB863563825A5E55A",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\constitution.signature.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "5BA30312CF3652883957D85C4D53D0F71C7E42CC49337AA90B0F6876F81977D7",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\constitution.snapshot.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "5B42324DE36C14D91D76F00F868D24536D790A056400935496DAEDFF98FB5B7A",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\constitution.snapshot.json.asc"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "64C787487A94A10A4D9611D8265FE60364AFF41AF5A0F13A322120DC344899C7",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\constitution.threshold.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "36B56E6AEE8156285A7A109408B5D3C077BB0A2408E523F1745DE33A2AD7A7D8",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\crypt-vault.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "1D8490493D09BDB18ED1CE14C0193D26BBD9FBF496B3AF4737A3633842503F78",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\CRYPTO.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "50478F1027BCB5986963BFAE4AAE448519F3277F3C0859A6F1E3D3723E61FDCD",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\gatekeeper.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "7B79F60795A92139CF2A6E9D66F34A78DC72DBEB6FD41E278AB7E6E1C244E813",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\GOVERNANCE.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "472E31F02C10BD04F953AE800C4AD3781F14893812879C9A1320EB0CC3B69933",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\GPG-POLICY.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "47C4397068062E505366A62B0A31D4746DA2644BB665378CFBC050CC7EF70F5C",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\harness.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "A9ED17C189B236415926A897868E90DD498FF4077BDADA7B6D5232DC20793DFB",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\identity-gold.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "36660FBCC21201EBA0D3FD20DFB86B690A22EBBA748FD3C2F8CBECC3AA81E4FE",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\identity.contract.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "550C6064DC8D99F6B061AECD1B0014D744DDBC059DA60C1E6CEAF97312DED7E7",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\index.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "03B462814BBCF1673F924F2DE4FB403F756BDC2DC2BC451D9679DE4E11049763",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\index.js"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "0E86B0300B0FB3960F3B7B8C3095F39C6326C3EDFB19F9E219BEE97A28BF7243",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\integrity.sh"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "3C43D4165819A1A9F973BD0124E3D9CBA76901529180C6941B7735A3315FC33D",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\LICENSE"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "0EA8B0D3CEF6286312B474CBAACD7980C869E058767196BC43180D6ACF132765",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\MANIFEST.SEAL.sha256"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "921610691EA11B742527A8179103CDA17842834FC676E9A57DFBA0AD04BF585A",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\MERKLE_ROOT"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "C9E95EFD532099010EB7B08C73BE99D8056EE07C1BA2606B04BF0C4502F7A488",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\package.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "0627559E13982A0C485E074314467BDDF0DEB997EF99EC080FAE327449C86FA6",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\paradox-resolver.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "3A56BB581642D0443B2C858BF010522782F921D4E05745187AA68E606F1AFFE5",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\profiler.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "45F5E74DA77694314F62AD9CC3590BFD2E973F25A31B695A4A3F5C60B40CD433",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\proof-scaffold.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "89610639077C120738AB4739C6EAC30059B672B111EB48C1F268B47D8F9884EB",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\protocol.steps"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "663B61E79E25E4D1DFC59B91A226A2A1A1F73F3DF5584203819FC5562D0A81CF",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\rb.ps1"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "3B042FAD9AA980A05C115C27E0BDEAD8EA01BBD22380CD519A7DDCA4578DB248",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\rb.sh"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "8C399F8043974181B481B4226644D2D56B76BABE645FAB4EC2FAC45953DC95CE",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\README.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "8BD90C796CFD9EBD8B8F46EF13422A741C4F4C77AC531B62FABBD88DC64A4ADD",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\refusal-engine.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "32377D8EE30B3B370123DA480BD5ACB38FA95AE526548C2DD2E4B4064C51DD7B",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\refusal-gate.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "63C745B9481D8C230792CE336EEB8D6A39FCC95BFCF86A01AD45B7722D609D6C",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\refusal-gate.js"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\refusal.codes"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "BC45F07D51D379E01067350575881DE33DF8E24697738CA72A3CD9B1912B59FE",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\RIVERBRAID-SPEC.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "DACAC55FA4846267C962D0E5A46D2BA3D81A40DE7CD544CD25751407E788C818",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\run-vectors.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "DD51D5CD3AFE43D9F508BFCEB7DC3BF1475E89516EBF1A386D51D1BEE083BE9E",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\safety-gate.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "3985DCF7F58D6697D1EF0B2AEC0027370A223D0DF459E545B4A0A126F53292E0",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\SECURITY.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "1DC311C77C72BA6A9FE725CF39BA4C5579D0331DC0657515F94329BD92646E55",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\SHA256SUMS"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "163DC70E4339933BEB7AEB7E032462B5A1D7EACC9D20F71FADEFAE41653998D4",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\SOVEREIGN-ENVIRONMENT.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "097AB262D5655624874C0E0F059DEDDD93808A3F5A129777FCF7844501C49AFA",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\SPEC.md"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "D2259D1E793B00DCEF3BD9F29637A6BDC7DCE6DB3F48A63AA9D09D5EAD69E9DC",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\swarm_anchor.txt"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "79A05FEBB750BD1E2D2E87C12019A9266C3ED39A0080C332AE45A4BE6A44EDBD",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\temporal-bridge.cjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "C0C3ED04FB3D1554C853C9B34A528C45D78897190D5E3D6DD9206241E7F0244A",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\test-gate.sh"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "6D3BC910AE77C4FF7F7BDE4198DF5968B1EAAE5B1257FDA5D97A7CCECECEB873",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\TRUTH.SEAL"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "0C906522B440E2127C0BF97264E9C0781B8CBFE5B5350036D1FBA58B03502664",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\TRUTH.SEAL.sha256"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "5E1FD7D30B53BF2D20FC84E424BD125397D9A07121349CAD9AE7CE493EDA18D8",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\vectors.manifest.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "A458BFF83580810D9207874095E9EDA9F5C4C740B4CE3F7869141CB7BF6A2A2B",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\VECTORS_ATTESTATION_V1.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "7915B281FF30A4A8603B7AD9266AEC045BF4F276C85EC2E380720ECDA939DA66",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\verify.mjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "ADC8B4AE882D232D7FC199CBC66A58C2D081B9FFB00FB14CF97540432BA24A6C",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\verify.py"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\__init__.py"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.github\\gate.mjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "C0BC8656B364EE5D0535AA09C6FC959C8EA8B0DADFBD7571AD1B2DDAB772FE31",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.github\\heartbeat.mjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "CB7277AC89CBFEE9E6C39407B2DA8C6C4F6FB176E403916EC7388D4BD8E597AD",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.github\\workflows\\integrity.yml"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "E67CCD18B8F7672BE022DFCCDDDF115C694DEC327E4A1D83D58436013C448AF4",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.github\\workflows\\merkle-verify.yml"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "8873230121E73DFDED2EDE483AE2140B8B92B7CB1E63B7A29BF71BFA79452E5C",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.github\\workflows\\security.yml"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "8D442918E9E25C5A832C3FBF5098F2A5B5DFE9D467F536F0933AEB7735504643",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.github\\workflows\\verify.yml"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "1E46060BA1141C7DF6D33A8820FA45B4D613A794D2FAF3C428D0D8C540897418",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\.riverbraid\\authority.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\bin\\gate.mjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "C0BC8656B364EE5D0535AA09C6FC959C8EA8B0DADFBD7571AD1B2DDAB772FE31",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\bin\\heartbeat.mjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "F44C1A5599D30CF1F92EBE8DEA0893C3441C0F22DC86C51A01FDCBD8D4C4CBE2",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\bin\\shield.mjs"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "86F8399ADD26337F080A49A344AAC5A0566D81178CD57CB961ABF895D15ED857",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\specs\\identity.contract.json"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "63C745B9481D8C230792CE336EEB8D6A39FCC95BFCF86A01AD45B7722D609D6C",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\src\\refusal-gate.js"
     },
     {
-        "Algorithm":  "SHA256",
         "Hash":  "90B2369D0D1EFDB22D84B3E8155DF7E5EA4BB5D766BA3B737A72B3B7EC7FBE62",
         "Path":  "C:\\Users\\theti\\riverbraid\\Riverbraid-Refusal-Gold\\vectors\\stationary.json"
     }
