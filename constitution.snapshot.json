@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "2.1.0",
   "merkle_root": "ddd844e46c7d7f7f4e6fef288e6945a6c81c51b263640b324a4e7f346bbcfd79",
   "files": [
     {
@@ -259,7 +259,7 @@
     },
     {
       "path": "VECTORS_ATTESTATION_V1.json",
-      "sha256": "6e120631d5207039a3df661741676b3a6344ba691e9dd177031f48e628827695",
+      "sha256": "6e120632.1.07039a3df661741676b3a6344ba691e9dd177031f48e628827695",
       "leaf": "d096be485debf6473a39b5fe130eb306eb2be2994c23f8b385a57f1beeb3e013"
     },
     {

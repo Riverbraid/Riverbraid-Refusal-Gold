@@ -1,6 +1,6 @@
 {
   "name": "@riverbraid/riverbraid-refusal-gold",
-  "version": "1.5.0",
+  "version": "2.1.0",
   "private": true,
   "type": "commonjs",
   "scripts": {

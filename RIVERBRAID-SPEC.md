@@ -1,5 +1,5 @@
 # RIVERBRAID-SPEC.md
-Version 1.5.0-Sovereign
+Version 2.1.0-Sovereign
 Stationary Floor Root: de2062
 Sovereign Layer Root: adef13
 Date of Last Canonical Seal: 2026-04-14

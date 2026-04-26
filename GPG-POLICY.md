@@ -1,4 +1,4 @@
-# Riverbraid GPG Policy (v1.5.0)
+# Riverbraid GPG Policy (v2.1.0)
 
 ## 1. Primary Signing Key
 - **Fingerprint:** D9475D6B717D0E6C8EC84F6D8F86D9F4F2B083A4
