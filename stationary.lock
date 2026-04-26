@@ -1,7 +1,5 @@
 {
     "status":  "STATIONARY",
-    "timestamp":  "20260426-185449",
     "version":  "2.1.0",
-    "environment":  "POSIX-Normalized-V2",
-    "steward":  "Michael Ahvah"
+    "environment":  "POSIX-Normalized-V2"
 }
