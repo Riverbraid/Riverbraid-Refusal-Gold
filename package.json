@@ -1,14 +1,14 @@
-﻿{
-    "name":  "@riverbraid/riverbraid-refusal-gold",
-    "version":  "2.1.0",
-    "private":  true,
-    "type":  "commonjs",
-    "scripts":  {
-                    "verify":  "node run-vectors.cjs verify",
-                    "test":  "npm run verify:feature-flow \u0026\u0026 node run-vectors.cjs verify",
-                    "verify:feature-flow":  "node verify-feature-flow.cjs"
-                },
-    "engines":  {
-                    "node":  "24.11.1"
-                }
+{
+  "name": "@riverbraid/riverbraid-refusal-gold",
+  "version": "2.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "verify": "node run-vectors.cjs verify",
+    "test": "npm run verify:feature-flow",
+    "verify:feature-flow": "node verify-feature-flow.cjs"
+  },
+  "engines": {
+    "node": "24.11.1"
+  }
 }
