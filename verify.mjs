@@ -88,5 +88,5 @@ const output = {
   failure_codes: ok ? [] : failureCodes,
   digest: "sha256:" + hash.digest("hex")
 };
-fs.writeFileSync("verify-output.json", JSON.stringify(output, null, 2));
+fs.writeFileSync("verify-output.json", JSON.stringify(output, null, 2) + "\n", "utf8");
 process.exit(ok ? 0 : 0);
