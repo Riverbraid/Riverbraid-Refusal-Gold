@@ -1,113 +1,286 @@
 {
-  "sha256": "8400aa8ee701796852bb0ddf6b3cbd3020b8fce49a1958c7a2786b999425c8b6",
+  "version": "2.1.0",
+  "merkle_root": "ddd844e46c7d7f7f4e6fef288e6945a6c81c51b263640b324a4e7f346bbcfd79",
   "files": [
     {
-      "file": ".anchor",
-      "hash": "72c6c7b56f4b316e28ca96568ea48d6cfdce6ec0ea20a7e72048378a52225323"
+      "path": "__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "leaf": "10a41d7c3e91bb34aa7c526f671f95bec245d6ff08cd3eb98cc41fb872109bd0"
     },
     {
-      "file": ".github/workflows/integrity.yml",
-      "hash": "cb7277ac89cbfee9e6c39407b2da8c6c4f6fb176e403916ec7388d4bd8e597ad"
+      "path": ".anchor",
+      "sha256": "b03417507af474c83b709329d55b0dad46abf21bc5567d8d7b6bd4a24c88cdff",
+      "leaf": "d4be05d65d813012ab738d171204d49d02c5f974b6f71c3149f353451ac15ac0"
     },
     {
-      "file": ".github/workflows/merkle-verify.yml",
-      "hash": "e67ccd18b8f7672be022dfccdddf115c694dec327e4a1d83d58436013c448af4"
+      "path": ".gitattributes",
+      "sha256": "7c6fa177236c5eb06df75c2941304f2da69c9d9948f6c97da7aa6fbcc9b06c84",
+      "leaf": "7a174e1011710e5af2f5cb593daa55649bb10d18d25e7644c278a5a8f00ffd78"
     },
     {
-      "file": ".stationary_state",
-      "hash": "a47a6cb190469d42b4bcac7f6c3423af9306f549b425c7af16559bcbc29728fb"
+      "path": ".gitignore",
+      "sha256": "288e0dab960b2c5524e8794685ab49a1bd3e168abfed7358d66fab125fbdb566",
+      "leaf": "5342565d156c1947a82d4f9204e7b68f61cbaf2a2bb71b4a2f8c49d380a2eedf"
     },
     {
-      "file": "CLUSTER_MANIFEST.state",
-      "hash": "dbdcc6963993ff6d411b66776bcaa555fb0a442f26a3b0fb5d193d459acd9bcd"
+      "path": ".stationary_state",
+      "sha256": "a47a6cb190469d42b4bcac7f6c3423af9306f549b425c7af16559bcbc29728fb",
+      "leaf": "73ed5881e65bbaa54d6f128d60e0c5d09036f2d9954316ca173329cd977b1c37"
     },
     {
-      "file": "LICENSE",
-      "hash": "4e3d6c1ae6af4c3edca13ac3a4425c2187a543b35f3dd4eed0d634e9060b92d8"
+      "path": ".stationary-seal",
+      "sha256": "6d6506d6328f21df100ba2cbdf3c8b02337824021ffe8f662c222f8e8be5a8dd",
+      "leaf": "b09978169d0ac960908e6879a58f831fffb2729e5aad76240be60f5976dd6401"
     },
     {
-      "file": "MANIFEST.SEAL.sha256",
-      "hash": "0ea8b0d3cef6286312b474cbaacd7980c869e058767196bc43180d6acf132765"
+      "path": "bin/gate.mjs",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "leaf": "e31e59ed65438712e97e70433dbd318ff639198a7e1953c764424ba5c5f00a88"
     },
     {
-      "file": "README.md",
-      "hash": "c7dba1c579dc3b7d1c8c28099a6b99c0b6a25fdf103382fc946e0187cf94bc17"
+      "path": "bin/heartbeat.mjs",
+      "sha256": "c0bc8656b364ee5d0535aa09c6fc959c8ea8b0dadfbd7571ad1b2ddab772fe31",
+      "leaf": "36e9ef8eaf28b360961fd7db79b293bf87370eee911d5afc3b2443ee1e3e5d26"
     },
     {
-      "file": "SPEC.md",
-      "hash": "8b2becbb6603d15d0ebfb41259776cd0b453a70ad69b53e2c22136885dafc23b"
+      "path": "bin/shield.mjs",
+      "sha256": "f44c1a5599d30cf1f92ebe8dea0893c3441c0f22dc86c51a01fdcbd8d4c4cbe2",
+      "leaf": "cc00793331aef180bb75301f87e0966b244be649bad3e21ab4acf11226bf2b5e"
     },
     {
-      "file": "TRUTH.SEAL.sha256",
-      "hash": "0c906522b440e2127c0bf97264e9c0781b8cbfe5b5350036d1fba58b03502664"
+      "path": "bridge-protocol.cjs",
+      "sha256": "e6d51821109cfb86a277cfb3bf49deb5039faddd4afe95f3b82a5019dd1d026b",
+      "leaf": "625714c97970685191ed3391a2e9603cb5f43bd6e277846ee9a1b322f9f35ac7"
     },
     {
-      "file": "__init__.py",
-      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      "path": "CLUSTER_MANIFEST.state",
+      "sha256": "dbdcc6963993ff6d411b66776bcaa555fb0a442f26a3b0fb5d193d459acd9bcd",
+      "leaf": "c28dbf3d78335ecf6cb7337c39f1e139f19a69fcc3923c2fc60ef8185dd6e7fc"
     },
     {
-      "file": "bin/gate.mjs",
-      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      "path": "cognitive-architecture.json",
+      "sha256": "72bad017e5598f7b0acc9819c7753e549e882a5238861fbc602d785d93f13698",
+      "leaf": "2a27e19f2650d615a45cb36bfa6ab961b1165c1e00cd1f6a40d5dcc55594a912"
     },
     {
-      "file": "bin/heartbeat.mjs",
-      "hash": "c0bc8656b364ee5d0535aa09c6fc959c8ea8b0dadfbd7571ad1b2ddab772fe31"
+      "path": "constitution.signature.json",
+      "sha256": "dea6c0e96c3ba6388913a8bccdd6d4d7e45802aedda78b3fb863563825a5e55a",
+      "leaf": "fc65021b365d7881640a01fa76559e563471810eaecfb419c48a6c8d31c7fddd"
     },
     {
-      "file": "bin/run-vectors.cjs",
-      "hash": "8e4bb628e831e04c0e2816dc12fd529b525a8de5923ce2e1ff9f1b2f7d9c501a"
+      "path": "constitution.snapshot.json.asc",
+      "sha256": "5b42324de36c14d91d76f00f868d24536d790a056400935496daedff98fb5b7a",
+      "leaf": "0f00bdabe642686934be4577d9e42c7f3f57e4032109a001516f327b58ca55a4"
     },
     {
-      "file": "cognitive-architecture.json",
-      "hash": "72bad017e5598f7b0acc9819c7753e549e882a5238861fbc602d785d93f13698"
+      "path": "constitution.threshold.json",
+      "sha256": "64c787487a94a10a4d9611d8265fe60364aff41af5a0f13a322120dc344899c7",
+      "leaf": "ea31a0c060bfdb0246d0fc812dee293b67aae0d51eebf5004d5849896fccdff0"
     },
     {
-      "file": "gate.mjs",
-      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      "path": "crypt-vault.cjs",
+      "sha256": "36b56e6aee8156285a7a109408b5d3c077bb0a2408e523f1745de33a2ad7a7d8",
+      "leaf": "08293c92b4e3c8b3ae0a5e9133e51fdcf39ed6f5e25ce0ef9febb4f6256e4847"
     },
     {
-      "file": "heartbeat.mjs",
-      "hash": "c0bc8656b364ee5d0535aa09c6fc959c8ea8b0dadfbd7571ad1b2ddab772fe31"
+      "path": "CRYPTO.md",
+      "sha256": "1d8490493d09bdb18ed1ce14c0193d26bbd9fbf496b3af4737a3633842503f78",
+      "leaf": "c43ef01f1bddd9375eec4ef0ed05d3d26199adb25446646fd869ed391d6049ef"
     },
     {
-      "file": "identity.contract.json",
-      "hash": "36660fbcc21201eba0d3fd20dfb86b690a22ebba748fd3c2f8cbecc3aa81e4fe"
+      "path": "gatekeeper.cjs",
+      "sha256": "50478f1027bcb5986963bfae4aae448519f3277f3c0859a6f1e3d3723e61fdcd",
+      "leaf": "985d7820412ceb5f27f1a73b170c8da9df280a3038d561c466d039b1bbaae247"
     },
     {
-      "file": "index.js",
-      "hash": "03b462814bbcf1673f924f2de4fb403f756bdc2dc2bc451d9679de4e11049763"
+      "path": "GPG-POLICY.md",
+      "sha256": "e93d0c0a1157e9f4a46daf954c74ed1d7d0441dba5bace0469b54e8d2a1a903a",
+      "leaf": "b4f108f58bf2adf307d383d4338bef6767c5614edab41a47bb6483d47e9306ae"
     },
     {
-      "file": "package.json",
-      "hash": "fc966d8747752cab085fbdc46115f23cfa43e4f87ea24ff87e8fcf0019014b13"
+      "path": "harness.cjs",
+      "sha256": "47c4397068062e505366a62b0a31d4746da2644bb665378cfbc050cc7ef70f5c",
+      "leaf": "45d84b2a2b4c88d980aa2094fe30c7249b0042c20d6ef6c8263764ae7cf4b79f"
     },
     {
-      "file": "protocol.steps",
-      "hash": "89610639077c120738ab4739c6eac30059b672b111eb48c1f268b47d8f9884eb"
+      "path": "identity-gold.cjs",
+      "sha256": "a9ed17c189b236415926a897868e90dd498ff4077bdada7b6d5232dc20793dfb",
+      "leaf": "d4fc594b702660c82728c671e19b6309a4111e12488c6705f4a0173319337321"
     },
     {
-      "file": "refusal.codes",
-      "hash": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+      "path": "identity.contract.json",
+      "sha256": "36660fbcc21201eba0d3fd20dfb86b690a22ebba748fd3c2f8cbecc3aa81e4fe",
+      "leaf": "a731d634473416949316623264aa5475877fe4c49503e2750d1baa0ebfe24713"
     },
     {
-      "file": "run-vectors.cjs",
-      "hash": "0918f7b1142d021aefafa973a1cd7dd4f881df27636b00d2d0b53379ac245c07"
+      "path": "index.cjs",
+      "sha256": "550c6064dc8d99f6b061aecd1b0014d744ddbc059da60c1e6ceaf97312ded7e7",
+      "leaf": "9681c97c1a2d36a2e05e1df10e3b2e122f0f6f6a103190f1853d28a58b3197f9"
     },
     {
-      "file": "specs/identity.contract.json",
-      "hash": "05b45cece1fc97fdfac4f75d97ad791b5797511b54437b8eb725c36906d4656c"
+      "path": "index.js",
+      "sha256": "03b462814bbcf1673f924f2de4fb403f756bdc2dc2bc451d9679de4e11049763",
+      "leaf": "7bf067381ab980e3f8443297cb8fd589ade43ef3cdffa24ea1b301f0f81d5378"
     },
     {
-      "file": "vectors/stationary.json",
-      "hash": "90b2369d0d1efdb22d84b3e8155df7e5ea4bb5d766ba3b737a72b3b7ec7fbe62"
+      "path": "integrity.sh",
+      "sha256": "0e86b0300b0fb3960f3b7b8c3095f39c6326c3edfb19f9e219bee97a28bf7243",
+      "leaf": "03c117af7ee0a1dfb148059e3db42804740d9a99a2e86c5f2adc5facc9e67b38"
     },
     {
-      "file": "verify.mjs",
-      "hash": "ef7206d7e0ff9df74405c044ce65d3476d6bbe3e5488cd4b3b7c45fafd15879b"
+      "path": "LICENSE",
+      "sha256": "3c43d4165819a1a9f973bd0124e3d9cba76901529180c6941b7735a3315fc33d",
+      "leaf": "33378d29d0c58ee40d0adf65f719f194b8fdc4381756840af8e00acbbd07829c"
     },
     {
-      "file": "verify.py",
-      "hash": "adc8b4ae882d232d7fc199cbc66a58c2d081b9ffb00fb14cf97540432ba24a6c"
+      "path": "MANIFEST.SEAL.sha256",
+      "sha256": "0ea8b0d3cef6286312b474cbaacd7980c869e058767196bc43180d6acf132765",
+      "leaf": "d8ef8be598ede2dae3522217eed841c517613cd817b2620070811f9d6e68517b"
+    },
+    {
+      "path": "MERKLE_ROOT",
+      "sha256": "921610691ea11b742527a8179103cda17842834fc676e9a57dfba0ad04bf585a",
+      "leaf": "ec2a85d8cf951bdea67238156acf269181c907c936120fc9e9fff17bc93483c7"
+    },
+    {
+      "path": "package.json",
+      "sha256": "31b94911368e2aefdda923efd9ff36fb31abce283b12d18a6912c9a4d6c5d47a",
+      "leaf": "2b432fca704099d0a02d9b3e19d893baf5daaa34da0ec1d58cb0646d1e288588"
+    },
+    {
+      "path": "paradox-resolver.cjs",
+      "sha256": "0627559e13982a0c485e074314467bddf0deb997ef99ec080fae327449c86fa6",
+      "leaf": "4fac588d7dc846ba03d0d7e5cc70748de48f7e76a75bf90f4ce9339e75ff3bd2"
+    },
+    {
+      "path": "profiler.cjs",
+      "sha256": "3a56bb581642d0443b2c858bf010522782f921d4e05745187aa68e606f1affe5",
+      "leaf": "c152120b5b386ae4dfc7332386109deefa3acfc96355d571454f6b175f47600b"
+    },
+    {
+      "path": "proof-scaffold.cjs",
+      "sha256": "45f5e74da77694314f62ad9cc3590bfd2e973f25a31b695a4a3f5c60b40cd433",
+      "leaf": "d82097e1ca8be48430f92476f00c04a2500283decf35808ae419a105b2fbcb57"
+    },
+    {
+      "path": "protocol.steps",
+      "sha256": "89610639077c120738ab4739c6eac30059b672b111eb48c1f268b47d8f9884eb",
+      "leaf": "e5218871216211dfdbfc821887ed11896efa85ab9b0d32e287da82a32d362da8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5596541a69e2396b2d046de08575674118709db4724ed087cadbdb03be2ff201",
+      "leaf": "8a9a6ad486c26a8ca975de02e04a0349b2ea74fe0c6c92f18397f2ed8f31ca0e"
+    },
+    {
+      "path": "refusal-engine.cjs",
+      "sha256": "8bd90c796cfd9ebd8b8f46ef13422a741c4f4c77ac531b62fabbd88dc64a4add",
+      "leaf": "aa1f298271da723da462047ce382231670b75fcf02cef56190370b1e1856feb3"
+    },
+    {
+      "path": "refusal-gate.cjs",
+      "sha256": "32377d8ee30b3b370123da480bd5acb38fa95ae526548c2dd2e4b4064c51dd7b",
+      "leaf": "038d69b7fd596bc4930d77ebffc1f13b17a4f9ba4c8142f8d580f6771390ed65"
+    },
+    {
+      "path": "refusal-gate.js",
+      "sha256": "63c745b9481d8c230792ce336eeb8d6a39fcc95bfcf86a01ad45b7722d609d6c",
+      "leaf": "9359e13b3c58ff35f3c2b0c78207b7637621db845fe03e22949c146ef2ab282a"
+    },
+    {
+      "path": "refusal.codes",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "leaf": "e6f986be41032429125e1db401ac8b8ad94d4e9eadf19e44da7193a53d18237b"
+    },
+    {
+      "path": "RIVERBRAID-SPEC.md",
+      "sha256": "470c9f3a7fccdf706d52f15a921a28b3e946d9d1acad8bc2181a9fdffe557d5e",
+      "leaf": "cde62f8260c93f8b86333da6ac9f60215c7711f50f075a80dc34a1015ef0d314"
+    },
+    {
+      "path": "run-vectors.cjs",
+      "sha256": "dacac55fa4846267c962d0e5a46d2ba3d81a40de7cd544cd25751407e788c818",
+      "leaf": "e448a8e65fd67fa0cbdbd24c67ce708edbf83bbd817e1ce9a5912f874e6e0458"
+    },
+    {
+      "path": "safety-gate.cjs",
+      "sha256": "dd51d5cd3afe43d9f508bfceb7dc3bf1475e89516ebf1a386d51d1bee083be9e",
+      "leaf": "cb7109253338d7484ecf2eaf8d9ffe781df3a70868742e9782f60b0d6e70db73"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "e5b9e82de0305fb04235aa90d03538979403d11d44f64f5567ba6ee41784a62d",
+      "leaf": "1d7a5ff2dca6001e079406aa37d99e1784170c9567f57f3c6184a7feef67daa7"
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "1dc311c77c72ba6a9fe725cf39ba4c5579d0331dc0657515f94329bd92646e55",
+      "leaf": "a6f5aff4da1b7c9121e870e0d94fad5b083997b9ead71137b512c7a6d3e091b0"
+    },
+    {
+      "path": "SOVEREIGN-ENVIRONMENT.md",
+      "sha256": "66dfdddbc560f21a35ca44a5ce98b56296f3ba0ee3fdf924e1974e05eecadf3b",
+      "leaf": "7bfd54d79245b0b70df145e5b531e5513a77fa845ac3df822ecde27e19ee43ab"
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "8b2becbb6603d15d0ebfb41259776cd0b453a70ad69b53e2c22136885dafc23b",
+      "leaf": "32a03634db16c6e08dea2adfb1985ffe515d1b4dcf79c6a3ea5818d6ebb501a9"
+    },
+    {
+      "path": "specs/identity.contract.json",
+      "sha256": "86f8399add26337f080a49a344aac5a0566d81178cd57cb961abf895d15ed857",
+      "leaf": "c6fc27ff9762d338bad8a0384968790348576fc5b670c16f0a8f9780b0b746d5"
+    },
+    {
+      "path": "src/refusal-gate.js",
+      "sha256": "63c745b9481d8c230792ce336eeb8d6a39fcc95bfcf86a01ad45b7722d609d6c",
+      "leaf": "ac3805aa145430ebfad02e5bbd46d9f0bb21494dad4563abc37d2fdbc20099d4"
+    },
+    {
+      "path": "swarm_anchor.txt",
+      "sha256": "d2259d1e793b00dcef3bd9f29637a6bdc7dce6db3f48a63aa9d09d5ead69e9dc",
+      "leaf": "64d842a7484777d550e1456fdd2961d13cbdb48c2e1791eb8ff70d570754ef7e"
+    },
+    {
+      "path": "temporal-bridge.cjs",
+      "sha256": "79a05febb750bd1e2d2e87c12019a9266c3ed39a0080c332ae45a4be6a44edbd",
+      "leaf": "b4f83a332aadba60d558ebfb851aa3b6dcf2cd56f5481b2926193b9f6e34a4ca"
+    },
+    {
+      "path": "TRUTH.SEAL",
+      "sha256": "6d3bc910ae77c4ff7f7bde4198df5968b1eaae5b1257fda5d97a7ccececeb873",
+      "leaf": "1227ef7945dfaf3ece0bad614602f39c560db41a7c7a3688a941b14075140a7d"
+    },
+    {
+      "path": "TRUTH.SEAL.sha256",
+      "sha256": "0c906522b440e2127c0bf97264e9c0781b8cbfe5b5350036d1fba58b03502664",
+      "leaf": "192a9e019452cc6a11fd8cc4e5bf7c0ce533445b3ce8b85411d660f0346123e7"
+    },
+    {
+      "path": "VECTORS_ATTESTATION_V1.json",
+      "sha256": "6e120632.1.07039a3df661741676b3a6344ba691e9dd177031f48e628827695",
+      "leaf": "d096be485debf6473a39b5fe130eb306eb2be2994c23f8b385a57f1beeb3e013"
+    },
+    {
+      "path": "vectors.manifest.json",
+      "sha256": "7a14d8ba0447f6f65fd81296e93610a5b2cf1a6f5b01f383e4eecadac68c6352",
+      "leaf": "420e970a8e42cfdc291e03eda7a887044e614e0c0f1f00552f0b52bb0010c3c4"
+    },
+    {
+      "path": "vectors/stationary.json",
+      "sha256": "90b2369d0d1efdb22d84b3e8155df7e5ea4bb5d766ba3b737a72b3b7ec7fbe62",
+      "leaf": "dbc7ca0c9a1137d99b433e8b9255524a3859dfa64447654cf10a6c8be5649452"
+    },
+    {
+      "path": "verify.mjs",
+      "sha256": "ef7206d7e0ff9df74405c044ce65d3476d6bbe3e5488cd4b3b7c45fafd15879b",
+      "leaf": "a72c16e8811ca850add11e7af6c3f64ae6f740d0680f8e11997c823957a68fd2"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "adc8b4ae882d232d7fc199cbc66a58c2d081b9ffb00fb14cf97540432ba24a6c",
+      "leaf": "ed328da4214f8f2df9ec00f3162db645156138dfa1851158be031b62bf7fafa7"
     }
   ]
 }

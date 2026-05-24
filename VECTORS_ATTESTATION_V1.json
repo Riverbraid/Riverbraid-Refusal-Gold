@@ -1,0 +1,7 @@
+{
+  "event": "v2.1.0-Genesis",
+  "status": "STATIONARY_INVARIANT_LOCKED",
+  "merkle_root": "adef13",
+  "baseline": "Lite-Triad v2.1.0",
+  "note": "Substrate Overwrite - Unsigned"
+}

@@ -1,0 +1,22 @@
+{
+  "repo": "Riverbraid-Refusal-Gold",
+  "ring": 1,
+  "invariant": "REFUSAL_STATIONARY",
+  "status": "VERIFIED",
+  "verification_scope": "ring1-file-surface-and-determinism-scan",
+  "claim_boundary": "declared-conditions-only",
+  "required_files": [
+    "verify.mjs",
+    "index.js",
+    "protocol.steps",
+    "package.json",
+    "AUTHORITY.md",
+    "RING.md"
+  ],
+  "missing_files": [],
+  "protocol_valid": true,
+  "index_exports_verify": true,
+  "deterministic_surface_ok": true,
+  "failure_codes": [],
+  "digest": "sha256:921cef358cd7a9cb5de98908fe7665566239a2e7e7bd54851ddf0ccf0c47069e"
+}

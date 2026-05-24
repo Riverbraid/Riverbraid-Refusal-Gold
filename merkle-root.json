@@ -1,0 +1,282 @@
+[
+    {
+        "Path":  "./.anchor",
+        "Hash":  "C03E8DF4AB2A744B70B36DEDC4EDFA06D2010781D2A8D6876ACFD23653D15782"
+    },
+    {
+        "Path":  "./.eternal_seal",
+        "Hash":  "4BA2165094CC656486214E9DAEE1F670F43AAC3FDD5FD1115D7E9FFE6C675136"
+    },
+    {
+        "Path":  "./.gitattributes",
+        "Hash":  "7C6FA177236C5EB06DF75C2941304F2DA69C9D9948F6C97DA7AA6FBCC9B06C84"
+    },
+    {
+        "Path":  "./.github/gate.mjs",
+        "Hash":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+        "Path":  "./.github/heartbeat.mjs",
+        "Hash":  "C0BC8656B364EE5D0535AA09C6FC959C8EA8B0DADFBD7571AD1B2DDAB772FE31"
+    },
+    {
+        "Path":  "./.github/workflows/integrity.yml",
+        "Hash":  "0997846A21168B6913B780F821B9CB1E389B595F96BED364CCC9BEF000CFB6B3"
+    },
+    {
+        "Path":  "./.github/workflows/merkle-verify.yml",
+        "Hash":  "28847A442CEA221CC4FA851677AF6AC8B39709FEB128AF2B448C5A82484C0C9F"
+    },
+    {
+        "Path":  "./.github/workflows/security.yml",
+        "Hash":  "53AD5C8F676A73FB64E4310BEE9DD45EDEA99878B7B9A0B17097B785B6C70B96"
+    },
+    {
+        "Path":  "./.github/workflows/verify.yml",
+        "Hash":  "278BB4A64682869DF210A257EC9B1462DEA0869091D7F80D2CD70D3F458EC8BE"
+    },
+    {
+        "Path":  "./.gitignore",
+        "Hash":  "288E0DAB960B2C5524E8794685AB49A1BD3E168ABFED7358D66FAB125FBDB566"
+    },
+    {
+        "Path":  "./.riverbraid/authority.json",
+        "Hash":  "0FB20EBC3549D0BEFF3439EF3AA831131B8EF51760A19FE7B982F02420797B32"
+    },
+    {
+        "Path":  "./.stationary",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "./.stationary_state",
+        "Hash":  "A47A6CB190469D42B4BCAC7F6C3423AF9306F549B425C7AF16559BCBC29728FB"
+    },
+    {
+        "Path":  "./.stationary-seal",
+        "Hash":  "6D6506D6328F21DF100BA2CBDF3C8B02337824021FFE8F662C222F8E8BE5A8DD"
+    },
+    {
+        "Path":  "./__init__.py",
+        "Hash":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+        "Path":  "./bin/gate.mjs",
+        "Hash":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+        "Path":  "./bin/heartbeat.mjs",
+        "Hash":  "C0BC8656B364EE5D0535AA09C6FC959C8EA8B0DADFBD7571AD1B2DDAB772FE31"
+    },
+    {
+        "Path":  "./bin/shield.mjs",
+        "Hash":  "F44C1A5599D30CF1F92EBE8DEA0893C3441C0F22DC86C51A01FDCBD8D4C4CBE2"
+    },
+    {
+        "Path":  "./bridge-protocol.cjs",
+        "Hash":  "E6D51821109CFB86A277CFB3BF49DEB5039FADDD4AFE95F3B82A5019DD1D026B"
+    },
+    {
+        "Path":  "./CLUSTER_MANIFEST.state",
+        "Hash":  "DBDCC6963993FF6D411B66776BCAA555FB0A442F26A3B0FB5D193D459ACD9BCD"
+    },
+    {
+        "Path":  "./cognitive-architecture.json",
+        "Hash":  "72BAD017E5598F7B0ACC9819C7753E549E882A5238861FBC602D785D93F13698"
+    },
+    {
+        "Path":  "./constitution.signature.json",
+        "Hash":  "DEA6C0E96C3BA6388913A8BCCDD6D4D7E45802AEDDA78B3FB863563825A5E55A"
+    },
+    {
+        "Path":  "./constitution.snapshot.json",
+        "Hash":  "5BA30312CF3652883957D85C4D53D0F71C7E42CC49337AA90B0F6876F81977D7"
+    },
+    {
+        "Path":  "./constitution.snapshot.json.asc",
+        "Hash":  "5B42324DE36C14D91D76F00F868D24536D790A056400935496DAEDFF98FB5B7A"
+    },
+    {
+        "Path":  "./constitution.threshold.json",
+        "Hash":  "64C787487A94A10A4D9611D8265FE60364AFF41AF5A0F13A322120DC344899C7"
+    },
+    {
+        "Path":  "./CRYPTO.md",
+        "Hash":  "1D8490493D09BDB18ED1CE14C0193D26BBD9FBF496B3AF4737A3633842503F78"
+    },
+    {
+        "Path":  "./crypt-vault.cjs",
+        "Hash":  "36B56E6AEE8156285A7A109408B5D3C077BB0A2408E523F1745DE33A2AD7A7D8"
+    },
+    {
+        "Path":  "./gatekeeper.cjs",
+        "Hash":  "50478F1027BCB5986963BFAE4AAE448519F3277F3C0859A6F1E3D3723E61FDCD"
+    },
+    {
+        "Path":  "./GOVERNANCE.md",
+        "Hash":  "7B79F60795A92139CF2A6E9D66F34A78DC72DBEB6FD41E278AB7E6E1C244E813"
+    },
+    {
+        "Path":  "./GPG-POLICY.md",
+        "Hash":  "472E31F02C10BD04F953AE800C4AD3781F14893812879C9A1320EB0CC3B69933"
+    },
+    {
+        "Path":  "./harness.cjs",
+        "Hash":  "47C4397068062E505366A62B0A31D4746DA2644BB665378CFBC050CC7EF70F5C"
+    },
+    {
+        "Path":  "./identity.contract.json",
+        "Hash":  "36660FBCC21201EBA0D3FD20DFB86B690A22EBBA748FD3C2F8CBECC3AA81E4FE"
+    },
+    {
+        "Path":  "./identity-gold.cjs",
+        "Hash":  "A9ED17C189B236415926A897868E90DD498FF4077BDADA7B6D5232DC20793DFB"
+    },
+    {
+        "Path":  "./index.cjs",
+        "Hash":  "550C6064DC8D99F6B061AECD1B0014D744DDBC059DA60C1E6CEAF97312DED7E7"
+    },
+    {
+        "Path":  "./index.js",
+        "Hash":  "03B462814BBCF1673F924F2DE4FB403F756BDC2DC2BC451D9679DE4E11049763"
+    },
+    {
+        "Path":  "./integrity.sh",
+        "Hash":  "0E86B0300B0FB3960F3B7B8C3095F39C6326C3EDFB19F9E219BEE97A28BF7243"
+    },
+    {
+        "Path":  "./LICENSE",
+        "Hash":  "3C43D4165819A1A9F973BD0124E3D9CBA76901529180C6941B7735A3315FC33D"
+    },
+    {
+        "Path":  "./MANIFEST.SEAL.sha256",
+        "Hash":  "0EA8B0D3CEF6286312B474CBAACD7980C869E058767196BC43180D6ACF132765"
+    },
+    {
+        "Path":  "./MERKLE_ROOT",
+        "Hash":  "921610691EA11B742527A8179103CDA17842834FC676E9A57DFBA0AD04BF585A"
+    },
+    {
+        "Path":  "./package.json",
+        "Hash":  "C9E95EFD532099010EB7B08C73BE99D8056EE07C1BA2606B04BF0C4502F7A488"
+    },
+    {
+        "Path":  "./paradox-resolver.cjs",
+        "Hash":  "0627559E13982A0C485E074314467BDDF0DEB997EF99EC080FAE327449C86FA6"
+    },
+    {
+        "Path":  "./profiler.cjs",
+        "Hash":  "3A56BB581642D0443B2C858BF010522782F921D4E05745187AA68E606F1AFFE5"
+    },
+    {
+        "Path":  "./proof-scaffold.cjs",
+        "Hash":  "45F5E74DA77694314F62AD9CC3590BFD2E973F25A31B695A4A3F5C60B40CD433"
+    },
+    {
+        "Path":  "./protocol.steps",
+        "Hash":  "89610639077C120738AB4739C6EAC30059B672B111EB48C1F268B47D8F9884EB"
+    },
+    {
+        "Path":  "./rb.ps1",
+        "Hash":  "663B61E79E25E4D1DFC59B91A226A2A1A1F73F3DF5584203819FC5562D0A81CF"
+    },
+    {
+        "Path":  "./rb.sh",
+        "Hash":  "3B042FAD9AA980A05C115C27E0BDEAD8EA01BBD22380CD519A7DDCA4578DB248"
+    },
+    {
+        "Path":  "./README.md",
+        "Hash":  "8C399F8043974181B481B4226644D2D56B76BABE645FAB4EC2FAC45953DC95CE"
+    },
+    {
+        "Path":  "./refusal.codes",
+        "Hash":  "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+    },
+    {
+        "Path":  "./refusal-engine.cjs",
+        "Hash":  "8BD90C796CFD9EBD8B8F46EF13422A741C4F4C77AC531B62FABBD88DC64A4ADD"
+    },
+    {
+        "Path":  "./refusal-gate.cjs",
+        "Hash":  "32377D8EE30B3B370123DA480BD5ACB38FA95AE526548C2DD2E4B4064C51DD7B"
+    },
+    {
+        "Path":  "./refusal-gate.js",
+        "Hash":  "63C745B9481D8C230792CE336EEB8D6A39FCC95BFCF86A01AD45B7722D609D6C"
+    },
+    {
+        "Path":  "./RIVERBRAID-SPEC.md",
+        "Hash":  "BC45F07D51D379E01067350575881DE33DF8E24697738CA72A3CD9B1912B59FE"
+    },
+    {
+        "Path":  "./run-vectors.cjs",
+        "Hash":  "DACAC55FA4846267C962D0E5A46D2BA3D81A40DE7CD544CD25751407E788C818"
+    },
+    {
+        "Path":  "./safety-gate.cjs",
+        "Hash":  "DD51D5CD3AFE43D9F508BFCEB7DC3BF1475E89516EBF1A386D51D1BEE083BE9E"
+    },
+    {
+        "Path":  "./SECURITY.md",
+        "Hash":  "3985DCF7F58D6697D1EF0B2AEC0027370A223D0DF459E545B4A0A126F53292E0"
+    },
+    {
+        "Path":  "./SHA256SUMS",
+        "Hash":  "1DC311C77C72BA6A9FE725CF39BA4C5579D0331DC0657515F94329BD92646E55"
+    },
+    {
+        "Path":  "./SOVEREIGN-ENVIRONMENT.md",
+        "Hash":  "163DC70E4339933BEB7AEB7E032462B5A1D7EACC9D20F71FADEFAE41653998D4"
+    },
+    {
+        "Path":  "./SPEC.md",
+        "Hash":  "097AB262D5655624874C0E0F059DEDDD93808A3F5A129777FCF7844501C49AFA"
+    },
+    {
+        "Path":  "./specs/identity.contract.json",
+        "Hash":  "86F8399ADD26337F080A49A344AAC5A0566D81178CD57CB961ABF895D15ED857"
+    },
+    {
+        "Path":  "./src/refusal-gate.js",
+        "Hash":  "63C745B9481D8C230792CE336EEB8D6A39FCC95BFCF86A01AD45B7722D609D6C"
+    },
+    {
+        "Path":  "./swarm_anchor.txt",
+        "Hash":  "D2259D1E793B00DCEF3BD9F29637A6BDC7DCE6DB3F48A63AA9D09D5EAD69E9DC"
+    },
+    {
+        "Path":  "./temporal-bridge.cjs",
+        "Hash":  "79A05FEBB750BD1E2D2E87C12019A9266C3ED39A0080C332AE45A4BE6A44EDBD"
+    },
+    {
+        "Path":  "./test-gate.sh",
+        "Hash":  "C0C3ED04FB3D1554C853C9B34A528C45D78897190D5E3D6DD9206241E7F0244A"
+    },
+    {
+        "Path":  "./TRUTH.SEAL",
+        "Hash":  "6D3BC910AE77C4FF7F7BDE4198DF5968B1EAAE5B1257FDA5D97A7CCECECEB873"
+    },
+    {
+        "Path":  "./TRUTH.SEAL.sha256",
+        "Hash":  "0C906522B440E2127C0BF97264E9C0781B8CBFE5B5350036D1FBA58B03502664"
+    },
+    {
+        "Path":  "./vectors.manifest.json",
+        "Hash":  "5E1FD7D30B53BF2D20FC84E424BD125397D9A07121349CAD9AE7CE493EDA18D8"
+    },
+    {
+        "Path":  "./vectors/stationary.json",
+        "Hash":  "90B2369D0D1EFDB22D84B3E8155DF7E5EA4BB5D766BA3B737A72B3B7EC7FBE62"
+    },
+    {
+        "Path":  "./VECTORS_ATTESTATION_V1.json",
+        "Hash":  "A458BFF83580810D9207874095E9EDA9F5C4C740B4CE3F7869141CB7BF6A2A2B"
+    },
+    {
+        "Path":  "./verify.mjs",
+        "Hash":  "7915B281FF30A4A8603B7AD9266AEC045BF4F276C85EC2E380720ECDA939DA66"
+    },
+    {
+        "Path":  "./verify.py",
+        "Hash":  "ADC8B4AE882D232D7FC199CBC66A58C2D081B9FFB00FB14CF97540432BA24A6C"
+    }
+]

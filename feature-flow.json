@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "repo": "Riverbraid-Refusal-Gold",
+  "current_change": {
+    "id": "riverbraid-refusal-gold-feature-flow-v1",
+    "type": "linear",
+    "status": "active",
+    "requires_protocol_version_change": false,
+    "requires_vector_update": true,
+    "requires_release_gate": true
+  },
+  "allowed_types": ["linear", "nonlinear"],
+  "rules": {
+    "linear": { "requires_protocol_version_change": false },
+    "nonlinear": { "requires_protocol_version_change": true }
+  },
+  "cannot_mean": [
+    "Linear does not mean unimportant.",
+    "Linear does not mean unverified.",
+    "Linear does not mean safe by default.",
+    "Nonlinear does not mean bad.",
+    "Nonlinear does not mean forbidden.",
+    "Nonlinear means protocol affecting."
+  ]
+}
