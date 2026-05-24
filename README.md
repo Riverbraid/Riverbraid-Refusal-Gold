@@ -1,48 +1,23 @@
-**Status:** Stationary (v2.1.0)
-**Normative Source:** Riverbraid-Core
-**Verification:** `npm test`
-**Authority:** 2-of-2 GPG Threshold
----
-
-<div align="center">
-
-# O Riverbraid-Golds
-
-### The Gold Cluster Assembler
-
-**The orchestration layer that assembles all Gold petals into a unified, verifiable cluster.**
-
-[![Gold Standard](https://img.shields.io/badge/Standard-Absolute_V2-gold)](#)
-[![Status: Stationary](https://img.shields.io/badge/Status-Stationary-brightgreen)](#)
-[![Version](https://img.shields.io/badge/Version-1.1.2-orange)](#)
-
-</div>
-
-## Purpose
-
-Riverbraid-Golds is the meta-assembler for the Gold tier of the Riverbraid cluster. It manages all Gold petals as git submodules. It is not a runtime; it is an **orchestration surface**.
-
-## The Absolute V2 Pipeline
-
-1.  **HYGIENE:** Scans for "AI-Generic" distortion and entropy contamination.
-2.  **ASSEMBLE:** Synchronizes all Gold-tier invariants via git submodule update.
-3.  **BUILD:** Validates the thermodynamic signal: **Meaning > Tokens**.
-4.  **VECTORS:** Exports validated predicate-based logic for deployment.
-
-The pipeline enforces the **Fail-Closed contract**: a single failing petal halts the entire run.
-
-## Quick Start
-
+# Riverbraid-Refusal-Gold
+Riverbraid-Refusal-Gold provides refusal and boundary verification support for the Riverbraid governance floor.
+Riverbraid is an open source deterministic integrity floor for AI governance. It is designed to make structure, authority, and drift visible before trust is granted.
+## Role
+This repository participates in the Riverbraid 30 repository AI governance verification registry.
+It focuses on refusal boundaries, invalid transition rejection, and fail closed policy surfaces.
+## Verification
+Run:
 ```bash
-git clone --recursive [https://github.com/Riverbraid/Riverbraid-Golds.git](https://github.com/Riverbraid/Riverbraid-Golds.git)
-cd Riverbraid-Golds
-./braid-sync.sh
-npm run build
-
----
-## Part of the Riverbraid Constellation
-A self-verifying integrity substrate anchored to stationary Merkle root **de2062** (Sovereign layer **adef13**).
-Verification: `node run-vectors.cjs verify`
-
+node verify.mjs
+```
+For full cluster orientation, see:
+```text
+Riverbraid-Evaluation-Kit
+```
+## Evidence boundary
+This repository provides an inspectable verification surface.
+It does not claim third party certification, legal approval, production readiness, absolute security, absence of defects, external audit, or complete AI safety.
+## Relationship to Riverbraid
+Riverbraid-Refusal-Gold is one domain surface within the broader Riverbraid constellation.
+It does not redefine Riverbraid-Core protocol authority and does not replace the Evaluation Kit as the public starting point.
 ## License
-MIT.
+MIT
