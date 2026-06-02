@@ -89,4 +89,4 @@ const output = {
   digest: "sha256:" + hash.digest("hex")
 };
 fs.writeFileSync("verify-output.json", JSON.stringify(output, null, 2) + "\n", "utf8");
-process.exit(ok ? 0 : 0);
+process.exit(ok ? 0 : 1);
