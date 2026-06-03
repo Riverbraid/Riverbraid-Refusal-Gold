@@ -8,42 +8,38 @@ Riverbraid is an open source deterministic integrity floor for AI governance. It
 
 Riverbraid-Refusal-Gold is a canonical refusal and boundary verification surface within Riverbraid.
 
-## Public verification boundary
-
-This repository is part of the current Evaluation Kit canonical verification registry and focuses on refusal boundaries, invalid transition rejection, and fail closed policy surfaces.
-
-## Evidence boundary
-
-This repository does not claim certification, legal approval, production readiness, absolute security, external audit, complete AI safety, adoption, or absence of defects.
-
-## Role
-
-This repository participates in the Riverbraid 30 repository AI governance verification registry.
-
 It focuses on refusal boundaries, invalid transition rejection, and fail closed policy surfaces.
 
-## Verification
+## Public verification boundary
 
-Run:
-```bash
-node verify.mjs
-```
+This repository is part of the current Evaluation Kit canonical verification registry snapshot.
 
-For full cluster orientation, see:
-```text
-Riverbraid-Evaluation-Kit
-```
+Registry membership means this repository has a pinned registry entry and a configured verification command in the Evaluation Kit.
+
+Registry membership does not imply certification, external audit, production readiness, complete AI safety, absolute security, registry freshness, or absence of defects.
 
 ## Evidence boundary
 
 This repository provides an inspectable verification surface.
-It does not claim third party certification, legal approval, production readiness, absolute security, absence of defects, external audit, or complete AI safety.
 
-## Relationship to Riverbraid
+It does not claim certification, legal approval, production readiness, absolute security, external audit, complete AI safety, adoption, registry freshness, or absence of defects.
 
-Riverbraid-Refusal-Gold is one domain surface within the broader Riverbraid constellation.
-It does not redefine Riverbraid-Core protocol authority and does not replace the Evaluation Kit as the public starting point.
+## Authority boundary
+
+Riverbraid-Core remains the normative source for protocol semantics. This repository does not redefine canonical Riverbraid protocol rules or replace the Evaluation Kit as the public starting point.
+
+## Verification
+
+```bash
+node verify.mjs
+```
+
+This command represents local repository verification only unless stronger evidence is explicitly provided.
 
 ## License
 
-MIT
+MIT.
+
+---
+
+**Navigation:** [Evaluation Kit](https://github.com/Riverbraid/Riverbraid-Evaluation-Kit) | [Documentation](https://github.com/Riverbraid/Riverbraid-Documentation) | [System Map](https://github.com/Riverbraid/Riverbraid-Documentation)
