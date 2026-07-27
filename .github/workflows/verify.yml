@@ -1,38 +1,41 @@
 name: Riverbraid Verification Gate
+
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: '20.11.0'
+          node-version: '24.11.1'
+
       - name: Install Dependencies
         run: |
+          set -euo pipefail
           if [ -f package-lock.json ]; then
-            npm ci
+            npm ci --ignore-scripts
           else
             echo "No package-lock.json found. Skipping dependency install."
           fi
-      - name: Execute Riverbraid Verifier
+
+      - name: Execute positive verifier path
         run: |
-          if [ -f verify.mjs ]; then
-            node verify.mjs
-          elif [ -f package.json ] && grep -q '"verify":' package.json 2>/dev/null; then
-            npm run verify
-          elif [ -f package.json ] && grep -q '"test":' package.json 2>/dev/null; then
-            npm test
-          else
-            echo "Error: No standard verifier found."
-            exit 1
-          fi
+          set -euo pipefail
+          node verify.mjs
+          node -e "const fs=require('fs'); const r=JSON.parse(fs.readFileSync('verify-output.json','utf8')); if(r.status!=='VERIFIED'||r.failure_codes.length!==0) process.exit(1); console.log('REFUSAL_GOLD_POSITIVE_PASS')"
+
+      - name: Execute isolated fail-closed negative path
+        run: node tests/verify-fail-closed.mjs
